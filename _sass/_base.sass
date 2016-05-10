@@ -1,0 +1,85 @@
+.content
+  background-color: #fafafa
+  font-size: $base-font-size
+
+.navbar
+  border-radius:  0
+
+.white
+  background-color: white
+
+.divider
+  margin-top: 40px
+  &:last-of-type
+    margin-bottom: 40px
+
+.yellow__top
+  border-top: 10px solid $yellow
+.green__top
+  border-top: 10px solid $green
+
+.introduction,
+.blog
+  padding: 24px
+  min-height: 300px
+.img-center
+  margin-left: auto
+  margin-right: auto
+.work
+  min-height: 433px
+.contact
+  min-height: 381px
+
+  &__link_instagram:before,
+  &__link_twitter:before,
+  &__link_github:before,
+  &__link_email:before
+    padding-right: 0.6rem
+
+  &__link_twitter:before
+    content: url('../images/twitter.svg')
+  &__link_github:before
+    content: url('../images/github.svg')
+  &__link_email:before
+    content: url('../images/email.svg')
+  &__link_instagram:before
+    content: url('../images/instagram.svg')
+
+.introduction
+  font-size: 120%
+  padding-right: 24px
+  &__text
+    font-family: $base-font-family
+    margin-top: 24px
+
+.center__text
+  text-align: center
+.site-link
+  padding: 0.2rem
+  color: $blue
+  &:hover,
+  &:focus
+    background-color: lighten($yellow, 5%)
+    text-decoration: none
+    padding: 0.2rem
+
+.blog
+  &__heading
+    font-weight: 500
+  &__posts
+    margin-top: 24px
+    font-size: 120%
+    color: $gray
+    margin-right: 0
+    &__link
+      display: inherit
+      color: $gray
+      padding: 0 0.3rem
+      border-bottom: 1px solid lighten($gray, 55%)
+      &:focus
+        outline: none
+        text-decoration: none
+      &:hover
+        color: darken($gray, 80%)
+        text-decoration: none
+        background-color: lighten($blue, 40%)

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 post">
+    <h3 class="post__heading white divider">All Posts</h3>
+    <div class="post__list">
+      {% for post in site.posts %}
+        <div class="post__item white divider">
+          <h4>
+            <a class="post__list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h4>
+          <p class="post__list__introduction">{{ post.introduction }}</p>
+          <p class="post__list__introduction post__list__introduction--date">{{ post.date | date: "%b %-d, %Y" }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

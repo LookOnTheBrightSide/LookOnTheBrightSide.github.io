@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<div class="row divider">
+    <div class="col-md-8">
+      <div class="introduction white yellow__top">
+        <h2 class="introduction__heading">Who I am</h2>
+        <p class="introduction__text">
+            My name is Nkosi Munya Ndlovu. I am a web-developer based in Dublin.
+            Welcome to my site, here I will post about technologies that
+            I am learning and other tech related stuff that I come across.
+        </p>
+        <p class="introduction__text">
+            I am currently seeking employment as a Junior Front-End Developer
+            and can be reached via the listed <a class="site-link" href="#links">links</a>.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="blog white green__top">
+        <h2 class="blog__heading">Recent Posts</h2>
+        <div class="blog__posts">
+          {% for post in site.posts limit:5 %}
+              <a class="blog__posts__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="row divider">
+    <div class="col-md-8">
+      <div class="introduction white yellow__top">
+        <h2 class="introduction__heading">My experience</h2>
+        <p class="introduction__text">
+            I am familiar with the following: Git, Travis, Agile, Testing, Javascript, NodeJS, Sql, HTML, CSS, Sass,
+            Rails and deploying to the cloud.
+        </p>
+        <p class="introduction__text">
+            For the past six months, prior to moving to Ireland at the end of April,
+            I was working at a company called <a class="site-link" target="_blank" href="http://platform45.com">Platform 45</a> in Cape Town. I started off as an
+            intern and was kept on as a Junior Front-End Developer at the end of the interning period.
+            At P45 I worked mostly on Ruby On Rails applications, styling and marking up the templates using Slim.
+            The styling was done in Sass.
+        </p>
+        <p class="introduction__text">
+            Prior to P45 I completed the Agile Developer Program at Codex in Cape Town, the main focus of which was
+            Javascript.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="blog work white green__top">
+        <h2 class="blog__heading">Recent Work</h2>
+        <div class="blog__posts">
+          <a class="blog__posts__link" target="_blank" href="http://africa.projectcodex.co/">Spaza app (mysql, express, node)</a>
+          <a class="blog__posts__link" target="_blank" href="https://nkosi-ndlovu-beercan.herokuapp.com/">Old Portfolio</a>
+          <a class="blog__posts__link" target="_blank" href="https://github.com/Avopbr/Saints">Spot App (AngularJs)</a>
+          <a class="blog__posts__link" target="_blank" href="https://github.com/LookOnTheBrightSide/dayisa">Dayisa (Design w.i.p)</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="row divider">
+    <div class="col-md-8">
+      <div class="introduction white yellow__top">
+        <h2 class="introduction__heading">Interests</h2>
+        <p class="introduction__text">
+          I like to learn new technologies and keep up to date with web-development trends.
+          I also like to dabble in web design. I designed this site in Photoshop,
+          the logo in Illustrator and have been teaching myself Sketch.
+          I have also participated in a number of hackathons,
+          which has taught me to work efficiently under time constraints.
+        </p>
+        <p class="introduction__text">
+          I recently started working with AngularJs and have made a few basic sites
+          that are on my Github. I would love to learn or work with the following:
+          AngularJs, EmberJs, React, Elm-lang, Go-lang and Elixir.
+        </p>
+      </div>
+    </div>
+    <div id="links" class="col-md-4">
+      <div class="blog contact white green__top">
+        <h2 class="blog__heading">Contact</h2>
+        <div class="blog__posts">
+          <a class="blog__posts__link contact__link_email" href="mailto:nkosindlovu87@gmail.com?subject=Good morrow, sweet lord!">Email</a>
+          <a class="blog__posts__link contact__link_twitter" target="_blank" href="https://www.twitter.com/streakybeercan/">Twitter</a>
+          <a class="blog__posts__link contact__link_github" target="_blank" href="https://www.github.com/lookonthebrightside/">Github</a>
+          <a class="blog__posts__link contact__link_instagram" target="_blank" href="https://www.instagram.com/streakybeercan/">Instagram</a>
+        </div>
+      </div>
+    </div>
+</div>

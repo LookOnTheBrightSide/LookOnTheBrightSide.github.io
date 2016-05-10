@@ -1,0 +1,35 @@
+.post
+  &__list
+    text-align: center
+    &__link
+      color: lighten($gray, 15%)
+
+      &:hover
+        color: darken($gray, 15%)
+        text-decoration: none
+
+  &__item,
+  &__heading
+    padding: 24px
+  &__item
+    border-top: 5px solid $green
+  &__heading
+    text-align: center
+    border-top: 5px solid darken($yellow, 20%)
+
+.post__date
+  line-height: 40%
+
+.post__item--main
+  font-size: 120%
+  line-height: 150%
+  border-top: 5px solid darken($yellow, 20%)
+header.post__item
+  color: darken($gray, 30%)
+  border-top: 5px solid $green
+  .post__date
+    color: lighten($gray, 20%)
+
+.post__list__introduction--date
+  font-size: 12px
+  color: darken($yellow, 60%)

@@ -16,10 +16,9 @@ The difference between Webpack and Task Runners is that Webpack is specialized, 
 
 The files produced are often called bundles and this has been the common naming convention.
 
-***
-You'll need to have installed node and the webpack cli
 
-***
+###### * You'll need to have installed node and the webpack cli
+
 
 Provided we have an app.js file in our root folder we can then run the following:
 
@@ -51,13 +50,14 @@ Some addons that helpful in development are the ```--watch flag```. It basically
 
 ##### Webpack-dev-server
 
-Another useful one is the ```webpack-dev-server``` which is a nodejs server for Webpack.
+Another useful one is the ```webpack-dev-server``` which is a nodejs server for Webpack.It can be istalled via npm.
 
 ```
 $ webpack-dev-server
 ```
 
 This brings to the table a really useful feature which is auto-refresh in the browser! This can increase productivity by saving you time of switching windows. The only thing worth mentioning is that it also adds a status bar that can be removed by entering the --inline flag
+
 
 ```
 $ webpack-dev-server --inline
@@ -69,32 +69,32 @@ To use features like ES6/ES2016 we need loaders. These loaders can be entered in
 
 
 {% highlight javascript %}
-module.exports = {
-    entry: ["./master","./app.js"],
-    output: {
-    	filename: "bundle.js"
-    },
-    watch: true,
-    module:{
-    loaders:[
-    	{
-        test: /\.es6$/,
-        // regex to check all the files with
-        // the .e6 extension to run through the loader
-        exclude: /node_modules/,
-        // ignore files in this folder
-        loader: "babel-loader"
-        // name of the loader we are using
-    	}
-    ]
-    },
-    resolve: {
-      extensions: ["",".js", ".es6", ".futurejs"]
-      // webpack checks for all .js files but here you
-      // can states which other one you want to be checked
-      // without specifying the extension
-    }
-}
+	module.exports = {
+	    entry: ["./master","./app.js"],
+	    output: {
+	    	filename: "bundle.js"
+	    },
+	    watch: true,
+	    module:{
+	    loaders:[
+	    	{
+	        test: /\.es6$/,
+	        // regex to check all the files with
+	        // the .e6 extension to run through the loader
+	        exclude: /node_modules/,
+	        // ignore files in this folder
+	        loader: "babel-loader"
+	        // name of the loader we are using
+	    	}
+	    ]
+	    },
+	    resolve: {
+	      extensions: ["",".js", ".es6", ".futurejs"]
+	      // webpack checks for all .js files but here you
+	      // can states which other one you want to be checked
+	      // without specifying the extension
+	    }
+	}
 {% endhighlight  %}
 
 ##### Preloaders

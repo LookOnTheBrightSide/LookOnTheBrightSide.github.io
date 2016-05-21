@@ -69,7 +69,6 @@ To use features like ES6/ES2016 we need loaders. These loaders can be entered in
 
 
 {% highlight javascript %}
-
 module.exports = {
     entry: ["./master","./app.js"],
     output: {
@@ -96,7 +95,6 @@ module.exports = {
       // without specifying the extension
     }
 }
-
 {% endhighlight  %}
 
 ##### Preloaders

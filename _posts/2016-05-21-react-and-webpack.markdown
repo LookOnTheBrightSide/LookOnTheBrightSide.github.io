@@ -11,6 +11,7 @@ introduction: The ReactJS journey continues ...
 So continuing with learning React I am now at a point where I understand what problem it solves. To be able work with React in a team I realised that I will need to know [Webpack](https://webpack.github.io/){:target="_blank" .site-link} and some [ES6/2015](https://tc39.github.io/ecma262/){:target="_blank" .site-link}.
 
 ##### What Webpack does
+
 It is a build tool. Mostly, while working with React we need it for Combining files, minifying, maintaining file order, transpiling, linting and many more other tasks. An alternative would be to use Task Runners such as Gulp and Grunt.
 The difference between Webpack and Task Runners is that Webpack is specialized, it takes an input file and spits out an output file. It uses loaders to do this. Webpack does not work with Bower.
 
@@ -27,10 +28,11 @@ Provided we have an app.js file in our root folder we can then run the following
 
 The above command generates a bundle.js file from the code in ```app.js```
 
-```webpack.config.js```
+##### Configuring Webpack
 
-
+The first thing we need to do is create a ```webpack.config.js``` file.
 This file helps us avoid typing the parameters in the command line.
+
 
 {% highlight javascript %}
 

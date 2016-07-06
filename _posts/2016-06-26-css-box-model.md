@@ -70,11 +70,14 @@ When we specify a height on an element but have too much content, the content wi
 
 Float allows us to "float" elements on a page. It accepts 3 values, ```left, right, none```. None is the default value. Float is the probably the hardest to get your head around. Floated elements are pulled out of the normal flow of elements. Floated elements might cause the container div to collapse. This is because the container element will have no "regard" for floated children. To fix this we can add ```clear: left/right/both``` to parent element. Another efficient technique that has been used to solve this is called clearfix. This class is attached to the container class. You can read more about it [here](https://css-tricks.com/all-about-floats/){:target="_blank" .site-link}.
 
-Some CSS resources:
+##### Some CSS resources:
 
 [learnlayout](http://learnlayout.com/){:target="_blank" .site-link}
+
 [shayhowe](http://learn.shayhowe.com/html-css/opening-the-box-model/){:target="_blank" .site-link}
+
 and of course ...
+
 [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference){:target="_blank" .site-link}.
 
 

@@ -101,13 +101,13 @@ QUnit.test('length', function(assert) {
 });
 {% endhighlight %}
 ***
-[QUnit api documentation](http://api.qunitjs.com/category/assert/){:target="_blank" .site-link}
+[QUnit api documentation](https://api.qunitjs.com/category/assert/){:target="_blank" .site-link}
 
 ***
 
 If we then run ```index.html``` in the browser we will see that we have a failing test.
 
-![failing test screenshot](http://i.imgur.com/KfMWQLR.png){: .img-fluid .img-center}
+![failing test screenshot](https://i.imgur.com/KfMWQLR.png){: .img-fluid .img-center}
 
 So to make it pass we need to write some code!
 
@@ -120,7 +120,7 @@ var length = function(name) {
 {% endhighlight %}
 
 And now we have a passing test!
-![passing test screenshot](http://i.imgur.com/6cjXKJS.png){: .img-fluid .img-center}
+![passing test screenshot](https://i.imgur.com/6cjXKJS.png){: .img-fluid .img-center}
 
 *****
 The final code can be found on my github [here](https://github.com/LookOnTheBrightSide/qunit_base){:target="_blank" .site-link}.

@@ -17,7 +17,7 @@ I previously had a portfolio that I had made using Ruby on Rails. The problem wi
 
 ![jekyll logo](https://jekyllrb.com/img/logo-2x.png){: .img-fluid .img-center}
 
-The decision to use RoR was obviously a bad one so I decided to redo it. I did some research and considered my options. The site [StaticGen](http://www.staticgen.com/){:target="_blank" .site-link} helped me narrow my choices down to middleman/ghost/jekyll.
+The decision to use RoR was obviously a bad one so I decided to redo it. I did some research and considered my options. The site [StaticGen](https://www.staticgen.com/){:target="_blank" .site-link} helped me narrow my choices down to middleman/ghost/jekyll.
 
 I had used middleman as an intern at [Platform45](https://www.Platform45.com/){:target="_blank" .site-link} before so I thought I should challenge myself and learn something new. It was for this reason that I chose Jekyll. I then went through the docs and [this](https://www.youtube.com/watch?v=oiNVQ9Zjy4o&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-){:target="_blank" .site-link} video course on youtube which proved to be enough to get my MVP out.
 
@@ -25,7 +25,7 @@ I had used middleman as an intern at [Platform45](https://www.Platform45.com/){:
 
 Time was not on my side but I needed to quickly mock up a clean design for my site. I used trusty old Photoshop and this is what I came up with.
 
-![beercan site mock up done in Photoshop](http://i.imgur.com/e8Ewwct.png){: .img-fluid .img-center}
+![beercan site mock up done in Photoshop](https://i.imgur.com/e8Ewwct.png){: .img-fluid .img-center}
 
 
 I used Brandon Grotesque in the initial design but then swapped it for a faster Roboto. This was enough to get my MVP out, which is the site that you are on now!

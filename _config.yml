@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Beercan
+title: Dubh
 description: A blog site for documenting what I learn about the web and computer science
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://lookonthebrightside.github.io/" # the base hostname & protocol for your site
+url: "https://lookonthebrightside.github.io/" # the base hostname & protocol for your site
 
 permalink: pretty
 # Build settings

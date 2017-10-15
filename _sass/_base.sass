@@ -1,3 +1,12 @@
+.introduction__text ul 
+  li
+    list-style-type: circle
+.modules
+  font-weight: 500
+  font-size: 0.9rem
+.warning li
+  color: black
+  font-size: 1rem
 .content
   background-color: #fafafa
   font-size: $base-font-size
@@ -21,29 +30,34 @@
 .introduction,
 .blog
   padding: 24px
-  min-height: 300px
+
 .img-center
   margin-left: auto
   margin-right: auto
-.work
-  min-height: 433px
+// .work, .contact, .blog
 .contact
-  min-height: 490px
-
   &__link_instagram:before,
   &__link_twitter:before,
   &__link_github:before,
-  &__link_email:before
+  &__link_email:before,
+  &__link_linkedin:before
     padding-right: 0.6rem
-
   &__link_twitter:before
-    content: url('../images/twitter.svg')
+    content: url('../images/003-twitter-logo-silhouette.svg')
+    vertical-align: -30%
   &__link_github:before
-    content: url('../images/github.svg')
+    content: url('../images/005-github-sign.svg')
+    vertical-align: -30%
   &__link_email:before
-    content: url('../images/email.svg')
+    content: url('../images/001-email.svg')
+    vertical-align: -30%
   &__link_instagram:before
-    content: url('../images/instagram.svg')
+    content: url('../images/002-instagram-logo.svg')
+    vertical-align: -30%
+  &__link_linkedin:before
+    content: url('../images/004-linkedin-logo.svg')
+    vertical-align: -30%
+
 
 .introduction
   font-size: 120%
@@ -83,3 +97,12 @@
         color: darken($gray, 80%)
         text-decoration: none
         background-color: lighten($blue, 40%)
+
+.contact 
+  .blog__posts__link
+    color: lighten(black, 30%)
+    &:hover
+      background-color: white
+      color: darken($blue, 70%)
+      text-decoration: line-through
+

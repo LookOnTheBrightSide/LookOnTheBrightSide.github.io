@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="row">
   <div class="col-md-8 col-md-offset-2 post">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
       <header class="post__item center__text white divider">
         <h3 itemprop="name headline">{{ page.title }}</h3>
-        <p class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        <p class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
       </header>
       <div class="post__item post__item--main white divider" itemprop="articleBody">
         {{ content }}

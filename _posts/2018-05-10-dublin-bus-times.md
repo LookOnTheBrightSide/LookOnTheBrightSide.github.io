@@ -14,4 +14,4 @@ Below is what the app looks like:
 
 
 
-Untill next time! ✌🏾
+Until next time! ✌🏾
